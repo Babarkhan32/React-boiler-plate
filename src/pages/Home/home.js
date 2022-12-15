@@ -16,6 +16,7 @@ export const Home = () => {
   }
   return (
     <div>
+      <div data-testid="test_id">Test</div>
       {data.map((post) => {
         return <div>{post.title}</div>;
       })}
