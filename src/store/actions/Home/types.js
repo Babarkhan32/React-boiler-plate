@@ -1,0 +1,7 @@
+const types = {
+  LOAD_USERS_ERROR: "LOAD_USERS_ERROR",
+  LOAD_USERS_LOADING: "LOAD_USERS_LOADING",
+  LOAD_USERS_SUCCESS: "LOAD_USERS_SUCCESS",
+};
+
+export default types;
