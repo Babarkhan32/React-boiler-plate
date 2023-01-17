@@ -7,7 +7,7 @@ export const Home = () => {
   const {
     homeReducer: { data },
   } = useSelector((store) => store);
-  console.log(data);
+
   useEffect(() => {
     dispatch(getUsers());
   }, [dispatch]);
